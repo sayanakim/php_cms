@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "073be70a338864d6da9cc76d10fc0a44",
     "packages": [
         {
             "name": "gabordemooij/redbean",
             "version": "dev-master",
-            "version_normalized": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
@@ -18,10 +23,8 @@
             "require": {
                 "php": ">=5.3.4"
             },
-            "time": "2021-02-26T23:00:23+00:00",
             "default-branch": true,
             "type": "library",
-            "installation-source": "source",
             "autoload": {
                 "psr-4": {
                     "RedBeanPHP\\": "RedBeanPHP"
@@ -47,9 +50,18 @@
                 "issues": "https://github.com/gabordemooij/redbean/issues",
                 "source": "https://github.com/gabordemooij/redbean/tree/master"
             },
-            "install-path": "../gabordemooij/redbean"
+            "time": "2021-02-26T23:00:23+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gabordemooij/redbean": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }

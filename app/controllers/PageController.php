@@ -3,8 +3,9 @@
 
 namespace app\controllers;
 
+use app\controllers\AppController;
 
-class PageController
+class PageController extends AppController
 {
     public function viewAction()
     {
